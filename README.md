@@ -1,2 +1,2 @@
-# expenses_app
+# Expenses_App
  
