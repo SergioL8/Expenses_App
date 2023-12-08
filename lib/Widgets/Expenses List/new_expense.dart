@@ -114,16 +114,6 @@ void _submitExpenseData() {
                       ),
                     ),
                     const SizedBox(width: 24,),
-                    Expanded(
-                    child: TextField(
-                      controller: _amountControler,
-                      keyboardType: TextInputType.number,
-                      decoration: const InputDecoration(
-                        prefixText: '\$ ',
-                        label: Text('Amount'),
-                      ),
-                    ),
-                  ),
                   ],
                 )
               else  // if the phone is in vertical mode
